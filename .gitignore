@@ -1,0 +1,32 @@
+# Python Virtual Environment
+.venv/
+.venv*/
+__pycache__/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# IDE-specific files
+.idea/
+*.iml
+.DS_Store  # macOS specific
+
+# Log files
+*.log
+
+# Environment variables (VERY IMPORTANT)
+.env
+env/
+
+#Other potentially sensitive files
+secrets.py
+config.py
+
+# Build artifacts
+dist/
+build/
+
+# DB Files
+chroma_db
